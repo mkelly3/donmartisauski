@@ -1,0 +1,73 @@
+.square-img {
+    width: 22vw; /* Set the desired width */
+    height: 30vh; /* Set the desired height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the entire container */
+    object-position: top center;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column;
+    justify-content: space-between; /* Distribute images with space between them */
+  }
+
+
+  body {
+    background-color:#061D40;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .title{
+    text-align: center;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    flex-wrap: wrap;
+    font-size: 9rem;
+  
+  }
+  
+
+  h2{
+    font-size: 5rem;
+    padding-top: 0.5rem;
+  
+  }
+
+  h3{
+    font-size: 4rem;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+  }
+
+  .container-flex{
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+p{
+  font-size: 2rem;
+}
+
+.text{
+  padding-left: 100px;
+}
+.flowers{
+  padding-top: 3rem;
+}
+
+.hi{
+  
+  font-size: 1.35rem;
+}
+
+
+a{
+  color: white;
+}
+  @media (max-width: 1400px) {
+    .sidenavRight {
+      display: none; /* Hide the side nav on small screens */
+    }
+  }
+  
