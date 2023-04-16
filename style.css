@@ -90,4 +90,8 @@ a{
       display: none;
     }
 
+    .text{
+      padding-left: 10px;
+    }
+
   }
