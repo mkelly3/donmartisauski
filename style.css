@@ -65,9 +65,25 @@ p{
 a{
   color: white;
 }
+
+.mobile {
+  display: none; 
+}
+
   @media (max-width: 1400px) {
     .sidenavRight {
       display: none; /* Hide the side nav on small screens */
     }
+
   }
   
+  @media (max-width: 995px) {
+    .sidenavLeft{
+      display: none;
+    }
+
+    .mobile{
+      display: inline;
+    }
+
+  }
